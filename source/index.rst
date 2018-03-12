@@ -8,7 +8,7 @@
 
 .. toctree::
     :maxdepth: 2
-    :caption: Contents:
+
     quick-start/index
     spring-cloud-coufig-server/index
     serving-alternative-formats/index
