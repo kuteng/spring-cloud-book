@@ -4,8 +4,8 @@
 通过如下命令开始服务：
 
 ::
-    $ cd spring-cloud-config-server
-    $ ../mvnw spring-boot:run
+    cd spring-cloud-config-server
+    ../mvnw spring-boot:run
 
 
 .. toctree::
