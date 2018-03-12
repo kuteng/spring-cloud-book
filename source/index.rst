@@ -9,6 +9,8 @@ Welcome to spring-cloud-config's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   example
+   rest_eazy
 
 
 
