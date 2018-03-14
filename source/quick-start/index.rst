@@ -14,7 +14,7 @@
       {"name":"https://github.com/scratches/config-repo/foo.properties","source":{"foo":"bar"}}
     ]}
 
-定位属性源的默认策略是克隆一个git仓库（这个配置行在 `spring.cloud.config.server.git.uri` ）同时使用它初始化小型的Spring应用程序 `SpringApplication` 。
+定位属性源的默认策略是克隆一个git仓库（这个配置行在 `spring.cloud.config.server.git.uri` ）同时使用它初始化小型的Spring应用程序 `SpringApplication` 。这个小型应用程序的 `Environment` 是用于枚举属性源，同时通过 `JSON` 格式发布他们。
 
 
 .. toctree::
